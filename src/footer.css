@@ -1,0 +1,29 @@
+.card{--bs-card-border-color:none;padding: 50px;background-color:#003399;color: #fff}
+
+
+.box{margin-bottom: 60px;margin-top: 20px}
+.form-control{border: none;margin-left: 0;background-color: #1565C0;color: #fff}
+input{border-bottom: 1px solid #fff !important;border-radius: 0 !important}
+::-webkit-input-placeholder{color: #E1F5FE !important}
+::-moz-placeholder{color: #E1F5FE !important}
+:-ms-input-placeholder{color: #E1F5FE !important}:-moz-placeholder
+{color: #E1F5FE !important}
+.form-head{padding-left: 10px;padding-right: 12px;margin-top: 20px;margin-bottom: 20px;font-size: 22px}.custom-control-label{font-size: 14px !important}
+.get-input{padding-left: 0}
+
+.footerbg{
+    background-color: #003399;
+}
+.iconf{
+    font-size: 25px;
+}
+.footer-link{
+    font-size: 13px;
+    margin-right: 15px;
+}
+@media(max-width:540px){
+    .footer-link{
+        font-size: 8px;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,158 @@
+.rowtime{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.rowtime-h1{
+    margin-bottom: 20px;
+    color:#003399;
+    font-size: 55px;
+    font-weight:600;
+}
+.rowtime-h3{
+    color:#58585a;
+}
+.time{
+    color:#003399;
+}
+.timetext{
+    color:#003399;
+    font-weight: 600;
+    font-size: xx-large;
+}
+.linea{
+    border-left: 5px solid rgb(15, 26, 237);
+    padding-bottom: 5%;
+}
+
+.time{
+    float: right;
+    margin-right: 10%;
+    font-size: x-large;
+}
+
+.rowdwpdf{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.dwpdf{
+    height: 50px;
+    font-size: larger;
+}
+.showcard{
+    border: none;
+    background-color: transparent;
+}
+.showcard:hover .h6card{
+   color: #003399;
+   font-weight: 600;
+}
+
+.cardinfo{
+    width: 615px;
+    height: 230px;
+    border-radius: 5px;
+    background-color: #003399;
+    color: white;
+    padding-top: 12px;
+}
+.image1{
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.cardsubtitle1{
+    color: #aaaaae;
+}
+
+@media(max-width:950px){
+    .timetext{
+        color:#003399;
+        font-weight: 600;
+        font-size: large;
+    }
+    .cardinfo{
+        width: 540px;
+        height: 200px;
+        border-radius: 5px;
+        background-color: #003399;
+        color: white;
+        padding-top: 12px;
+    }
+    .image1{
+        width: 100px;
+        height: 100px;
+        margin-left: 51px;
+        margin-top: 35px;
+    }
+    .cardtitle1{
+        padding-top: 10px;
+        font-size: large;
+    }
+    .cardsubtitle1{
+        font-size: small;
+    }
+    .cardpar1{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:850px){
+    .cardinfo{
+        width: 330px;
+        height: 350px;
+       
+    }
+    .image1{
+        width: 60px;
+        height: 60px;
+        margin-top: 5px;
+        margin-left: 33%;
+    }
+    .cardpar1 {
+        font-size: 12px;
+        padding-top: 10px;
+        position: relative;
+        width: 160px;
+    }
+}
+@media(max-width:540px){
+    .cardinfo {
+        width: 220px;
+        height: 350px;
+    }
+    .image1 {
+        width: 50px;
+        height: 50px;
+        margin-top: 9px;
+        margin-left: 33%;
+    }
+    .cardpar1 {
+        font-size: 11px;
+        padding-top: 4px;
+        position: relative;
+        left: -40px;}
+    .h6card{
+        margin-left: -9px;
+    }
+    .timetext{
+        color:#003399;
+        font-weight: 600;
+        font-size: medium;
+    }
+    .dwpdf{
+        font-size: 14px;
+    }
+    .time{
+        font-size: 16px;
+    }
+    .linea{
+      padding-bottom: 15%;  
+    }
+}
+.padd{
+    padding-top: 20px;
+}

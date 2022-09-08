@@ -26,7 +26,7 @@ const Navbar = () => {
         className={`${show ? "links-container show" : "links-container"}`}
         ref={linkContainerRef}
       >
-        <ul className="nav-links" ref={linkListRef}>
+        <ul className="nav-links linknav" ref={linkListRef}>
           {links.map((el) => (
             <li key={el.id}>
               <a href={el.url} alt={el.text}>

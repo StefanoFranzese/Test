@@ -1,20 +1,20 @@
 import React from "react";
-import { FaTwitter, FaFacebook, FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter, FaFacebook, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 
 const links = [
   {
     id: 1,
-    url: "/",
+    url: "#home",
     text: "home",
   },
   {
     id: 2,
-    url: "/agenda",
+    url: "#agenda",
     text: "Agenda",
   },
   {
     id: 3,
-    url: "/material",
+    url: "#material",
     text: "Material",
   },
 ];
@@ -22,19 +22,20 @@ const links = [
 const socialLinks = [
   {
     id: 1,
+    url: "https://youtube.com",
+    icon: <FaYoutube className="icon" />,
+  },
+  {
+    id: 2,
     url: "https://twitter.com",
     icon: <FaTwitter className="icon" />,
   },
   {
-    id: 2,
+    id: 3,
     url: "https://facebook.com",
     icon: <FaFacebook className="icon" />,
   },
-  {
-    id: 3,
-    url: "https://linkedin.com",
-    icon: <FaLinkedinIn className="icon" />,
-  },
+  
 ];
 
 const SocialBar = () => {
